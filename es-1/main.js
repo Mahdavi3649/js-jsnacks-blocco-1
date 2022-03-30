@@ -1,3 +1,8 @@
+/* SNACK 1 
+L’utente inserisce due numeri in successione, con due prompt.
+Il software stampa il maggiore.
+ */
+
 
 const first_number = parseInt(prompt("type your first number"))
 const second_number = parseInt(prompt("type your second number"))
