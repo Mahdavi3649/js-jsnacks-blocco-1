@@ -8,10 +8,14 @@ const seconda_parola = prompt("type your second word")
 
 console.log(prima_parola, seconda_parola);
 
-if(prima_parola.length > seconda_parola.length){
+if(prima_parola.length < seconda_parola.length){
+    console.log("la parola più corta è: " + prima_parola);
+    console.log("la parola più Lunga è: " + seconda_parola);
+    
+} else if(prima_parola.length > seconda_parola.length){
+    console.log("la parola più corta è: " + seconda_parola);
     console.log("la parola più lunga è: " + prima_parola);
-} else if(prima_parola.length < seconda_parola.length){
-    console.log("la parola più lunga è: " + seconda_parola);
+
 } else{
     console.log("Le due parole hanno la stessa lunghezza");
 }
