@@ -5,7 +5,7 @@ e calcola la somma di tutte le cifre che compongono il numero. */
 const numUtente = prompt("Insert the 4-digit number")
 console.log(numUtente);
 
-let result = 0;
+let somma = 0;
 
 if (isNaN(numUtente)){
     alert("The text entered obligatorily must be a number");
@@ -19,8 +19,8 @@ if (isNaN(numUtente)){
 }else{
 
     for (let i = 0; i < numUtente.length; i++) {
-        result += (parseInt(numUtente[i]));
+        somma += (parseInt(numUtente[i]));
     }
-     console.log("The sum of all digits the number you've entered is: " + result);
+     console.log("The sum of all digits the number you've entered is: " + somma);
 }
 
