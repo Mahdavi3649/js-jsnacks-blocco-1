@@ -7,8 +7,8 @@ Il programma stampa la somma di tutti i numeri inseriti. */
 
 let number;
 let somma = 0
-let i;
-while(i < 10){
+let i = 1;
+while(i <= 10){
     let number = parseInt(prompt("Type un numbers")); 
     somma = somma + number
     i++
